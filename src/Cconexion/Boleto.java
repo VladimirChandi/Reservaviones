@@ -41,7 +41,7 @@ public final class Boleto extends javax.swing.JFrame {
         combo1();
         bactualizar.setEnabled(false);
     }
-    
+    //Combo que carga informacion para Origen/Destino/Salida
     void combo1(){
         //this.AC.removeAllItems();
         Conexion cc=new Conexion();
